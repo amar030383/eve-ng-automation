@@ -47,4 +47,4 @@ This script allows you to connect to your EVE-NG server and list all available l
 - You can further extend the script to filter labs, show more details, or perform actions on labs (open, delete, etc.).
 
 ## License
-This script is provided as-is for educational and automation purposes. 
+This script is provided as-is for educational and automation purposes.
