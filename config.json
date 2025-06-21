@@ -1,0 +1,58 @@
+{
+    "eve_ng": {
+      "host": "192.168.67.150",
+      "username": "admin",
+      "password": "eve",
+      "port": 80,
+      "use_ssl": false,
+      "timeout": 30
+    },
+    "api_endpoints": {
+      "login": "/api/auth/login",
+      "logout": "/api/auth/logout",
+      "folders": "/api/folders/",
+      "templates": "/api/list/templates/",
+      "create_node": "/api/labs/{lab_path}/nodes"
+    },
+    "lab": {
+      "target_lab": "Enterprise_Automated_Lab.unl"
+    },
+    "endpoints": {
+      "user_info": "/api/auth",
+      "system_status": "/api/status",
+      "template_single": "/api/list/templates/{template}",
+      "networks": "/api/list/networks",
+      "roles": "/api/list/roles",
+      
+      "folder_content": "/api/folders/{path}",
+      "folder_rename": "/api/folders/{old_path}",
+      "folder_delete": "/api/folders/{path}",
+  
+      "users": "/api/users",
+      "user_single": "/api/users/{username}",
+  
+      "labs": "/api/labs",
+      "lab": "/api/labs/{path}",
+      "lab_move": "/api/labs/{path}/move",
+      "lab_edit": "/api/labs/{path}",
+      "lab_delete": "/api/labs/{path}",
+  
+      "lab_nodes": "/api/labs/{path}/nodes",
+      "lab_node": "/api/labs/{path}/nodes/{node_id}",
+      "lab_node_start": "/api/labs/{path}/nodes/{node_id}/start",
+      "lab_node_stop": "/api/labs/{path}/nodes/{node_id}/stop",
+      "lab_node_wipe": "/api/labs/{path}/nodes/{node_id}/wipe",
+      "lab_node_export": "/api/labs/{path}/nodes/{node_id}/export",
+      "lab_node_interfaces": "/api/labs/{path}/nodes/{node_id}/interfaces",
+  
+      "lab_networks": "/api/labs/{path}/networks",
+      "lab_network_single": "/api/labs/{path}/networks/{network_id}",
+      "lab_links": "/api/labs/{path}/links",
+      "lab_topology": "/api/labs/{path}/topology",
+  
+      "lab_pictures": "/api/labs/{path}/pictures",
+      "lab_picture_single": "/api/labs/{path}/pictures/{id}",
+      "lab_picture_data": "/api/labs/{path}/pictures/{id}/data/{width}/{height}"
+    }
+  }
+  
