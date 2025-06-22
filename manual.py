@@ -168,16 +168,18 @@ def main():
         labname =  '4_VLAN_Automation_single_Portchannel.unl'
         ids = createNodes(labname) 
         print(ids)
+        print("--------------------------------")
         if input("Do you want to start the nodes? (y/n)") == 'y':
             startNodes(ids, labname)
         else:
             print("Nodes not started")
+
         print("--------------------------------")
         if input("Do you want to stop the nodes? (y/n)") == 'y':
             stopNodes(ids, labname)
         else:
             print("Nodes not stopped")
-        
+        print("--------------------------------")
         if input("Do you want to delete the nodes? (y/n)") == 'y':
             deleteNodes(ids, labname)
         else:
