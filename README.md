@@ -174,9 +174,9 @@ The script uses EVE-NG's REST API endpoints for:
 
 ## Dependencies
 
-- `requests==2.31.0`: HTTP library for API calls
-- `urllib3==2.0.7`: HTTP client library
-- `cryptography==41.0.7`: Cryptographic recipes and primitives
+- `requests==2.31.0`: HTTP library for API calls to EVE-NG
+
+**Note**: The script uses only one external dependency. The `json` and `os` modules are built-in Python modules and don't require installation.
 
 ## License
 
