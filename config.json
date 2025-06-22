@@ -54,5 +54,6 @@
       "lab_picture_single": "/api/labs/{path}/pictures/{id}",
       "lab_picture_data": "/api/labs/{path}/pictures/{id}/data/{width}/{height}"
     }
+    
   }
   
